@@ -1,7 +1,8 @@
 /* COMPLETED GRID ITEMS STYLES AT BOTTOM */
 
 .gallery {
-	background-color: $color-grey-dark-1;
+    background-color: $color-grey-dark-1;
+    grid-column: full-start / full-end;
     
     &__item {
         &--1 {
