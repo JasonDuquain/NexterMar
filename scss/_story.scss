@@ -1,0 +1,45 @@
+.story {
+    
+    &__pictures {
+        background-color: $color-primary;
+        
+        
+        @include breakpoint (max-width $bp-medium) {
+            
+        }
+        
+    }
+    
+    &__img--1 {
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+        
+        @include breakpoint (max-width $bp-medium) {
+            
+        }
+        
+    }
+    
+    &__img--2 {
+        box-shadow: 0 2rem 5rem rgba(#000, .2);
+        
+        @include breakpoint (max-width $bp-medium) {
+            
+        }
+        
+    }
+    
+    &__content {
+		background-color: $color-grey-light-1;
+        
+        @include breakpoint (max-width $bp-medium) {
+            
+        }
+        
+    }
+    
+    &__text {
+        
+    }
+    
+}
+

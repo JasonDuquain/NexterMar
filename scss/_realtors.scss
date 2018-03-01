@@ -1,0 +1,32 @@
+.realtors {
+    background-color: $color-secondary;
+    
+    
+    @include breakpoint (max-width $bp-medium) {
+             
+    }
+    
+    &__list {
+        
+        
+        @include breakpoint (max-width $bp-medium) {
+            
+        }
+        
+        @include breakpoint (max-width $bp-small) {
+              
+        }
+        
+    }
+    
+    &__img {
+        
+    }
+    
+    &__sold {
+		color: $color-grey-light-2;
+    }
+}
+
+
+

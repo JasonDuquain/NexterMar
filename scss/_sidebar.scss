@@ -1,0 +1,45 @@
+
+.sidebar {
+    background-color: $color-primary;
+    
+    
+    @include breakpoint (max-width $bp-large) {
+        
+    }
+}
+
+.nav-btn {
+    border-radius: 0;
+    border: none;
+    
+    
+    
+    &::before, &::after {
+        content: "";
+        
+    }
+    
+    &::before {
+       
+    }
+    
+    &::after {
+       
+    }
+    
+    @include breakpoint (max-width $bp-large) {
+        
+        
+        &::before {
+           
+        }
+
+        &::after {
+           
+        }
+        
+    }
+    
+}
+
+

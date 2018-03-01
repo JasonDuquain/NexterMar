@@ -1,0 +1,42 @@
+
+.header {
+    background-color: $color-grey-dark-1;  
+    
+    
+    
+    @include breakpoint (max-width $bp-medium) {
+             
+    }
+    
+    @include breakpoint (max-width $bp-small) {
+           
+    }
+    
+    &__logo {
+        
+    }
+    
+    &__btn {
+        
+    }
+    
+    &__seenon-text {
+        
+        
+        &::before, &::after {
+            content: "";
+            
+        }
+    }
+    
+    &__seenon-logos {
+        
+        
+        img {
+            
+        }
+        
+    }
+}
+
+
