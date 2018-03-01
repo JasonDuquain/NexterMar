@@ -7,7 +7,7 @@
     margin: 15rem 0;
     
     & .home__like.js-clicked {
-        
+        fill: $color-primary;
     }
 }
 
@@ -27,7 +27,7 @@
     &__like {
         grid-row: 1 / 2;
         grid-column: 2 / 3;
-        fill: $color-primary;
+        fill: #fff;
         height: 2.5rem;
         width: 2.5rem;
         z-index: 2;
